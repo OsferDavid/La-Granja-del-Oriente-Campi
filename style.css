@@ -1,0 +1,195 @@
+.Nombres-Faltantes{
+    display:inline;
+    color:white;
+}
+#Catalogo{
+    display: flex;
+    width: 100%;
+}
+#Catalogo img{
+    width: 300px;
+}
+#Catalogo{
+   display: flex;
+   justify-content: space-around;
+   align-items: stretch;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: start;
+}
+#Footercolor{
+    background-color: darkslategray;
+}
+article{
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+#Campi{
+    position: absolute;
+    top: 10px;
+    right: 280px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 80px;
+}
+#Rating{
+    position: absolute;
+    right: 30px;
+    bottom: 230px;
+}
+#Service{
+    position: absolute;
+    right: 30px;
+    bottom: 110px;
+}
+#Banner{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 500px;
+}
+.A{
+    font-size: 60px;
+}
+#B{
+    position: relative;
+    bottom: 55px;
+    left: 10px;
+}
+#Boton{
+   background-color: rgb(12, 238, 12); 
+   padding: 30px;
+   width: 100px;
+   height: 30px;
+   border-radius: 30px;
+   left: 30px;
+}
+#C{
+    color: white;
+    position: relative;
+    bottom: 38px;
+    font-size: 25px;
+}
+.D{
+    position: relative;
+    bottom: 70px;
+}
+.Horario{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    z-index: 100 ;
+    position: fixed;
+    padding: 10px 5%;
+    background-color:rgb(240, 255, 251);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+.E{
+    padding: 30px;
+     color: rgb(44, 213, 255);
+    font-size: 50px;
+}
+#H{
+    position: relative;
+    bottom: 110px;
+}
+#I{
+    position: relative;
+    bottom: 215px;
+}
+.Block{
+    position: relative;
+    bottom: 230px;
+    display: block;
+}
+.F{
+    border-radius: 30px;
+    position: relative;
+    bottom: 800px;
+    left: 1300px;
+    background-color: white;
+    width: 800px;
+    height: 100px;
+}
+.G{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    font-size: 30px;
+    color: lightslategrey;
+}
+#J{
+    position: relative;
+    font-size: 60px;
+    left: 1380px;
+    bottom: 750px;
+}
+#K{
+    position: relative;
+    font-size: 60px;
+    left: 1600px;
+    bottom: 780px;
+}
+#ArticleB{
+    background-color: rgb(240, 240, 240);
+    height: 900px;
+}
+#L{
+    position: relative;
+    left: 1100px;
+}
+#M{
+    position: relative;
+    left: 1150px;
+}
+#N{
+    position: relative;
+    left: 1200px;
+}
+#O{
+    position: relative;
+    left: 1250px;
+}
+#P{
+    position: relative;
+    left: 1300px;
+}
+#Q{
+    position: relative;
+    left: 1350px;
+}
+#R{
+    position: relative;
+    left: 1370px;
+}
+#S{
+    position: relative;
+    color: lightslategray;
+    left: 1260px;
+    bottom: 20px;
+}
+#T{
+    padding: 30pxs;
+    border-radius: 0;
+    background-color: rgb(48, 48, 48);
+}
+#U{
+    padding: 30pxs;
+    border-radius: 0;
+    background-color: rgb(20, 20, 20);
+}
+.White{
+    color: white;
+}
+#Copyright{
+    color: rgb(232, 231, 231);
+}
