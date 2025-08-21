@@ -67,7 +67,7 @@ article{
 #C{
     color: white;
     position: relative;
-    bottom: 38px;
+    bottom: 15px;
     font-size: 25px;
 }
 .D{
@@ -111,35 +111,41 @@ header{
     bottom: 230px;
     display: block;
 }
-.F{
+.F_ {
+    margin-bottom: 30px;
+    display: block;
     border-radius: 30px;
     position: relative;
-    bottom: 800px;
+    bottom: 1000px;
     left: 1300px;
     background-color: white;
     width: 800px;
     height: 100px;
+    border: none;           /* quita el borde por defecto del input */
+    padding: 0 30px;        /* texto separado de los bordes */
+    box-sizing: border-box; /* para que width incluya padding */
+    outline: none;          /* quita borde azul al enfocar */
 }
-.G{
-    position: relative;
-    left: 250px;
-    top: 30px;
+
+.G_ {
     font-size: 30px;
     color: lightslategrey;
 }
+
 #J{
     position: relative;
     font-size: 60px;
     left: 1380px;
-    bottom: 750px;
+    bottom: 900px;
 }
 #K{
     position: relative;
     font-size: 60px;
     left: 1600px;
-    bottom: 780px;
+    bottom: 960px;
 }
 #ArticleB{
+    padding: 30px;
     background-color: rgb(240, 240, 240);
     height: 900px;
 }
@@ -178,18 +184,105 @@ header{
     bottom: 20px;
 }
 #T{
-    padding: 30pxs;
+    padding: 30px;
     border-radius: 0;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(36, 36, 36);
+    height: 600px;
 }
 #U{
-    padding: 30pxs;
+    padding: 30px;
     border-radius: 0;
     background-color: rgb(20, 20, 20);
+    height: 20px;
 }
 .White{
     color: white;
 }
 #Copyright{
     color: rgb(232, 231, 231);
+    position: relative;
+    left: 1900px;
+    bottom: 35px;
+}
+#Facebook{
+    position: relative;
+    height: 60px;
+    left: 460px;
+    top: 29px;
+}
+#WhatsApp{
+    position: relative;
+    height: 60px;
+    left: 500px;
+    top: 30px;
+}
+.Title{
+    font-size: 60px;
+}
+#V{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    left: 450px;
+    top: 100px;
+}
+#W{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    top: 50px;
+    left: 450px;
+}
+.X{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 1300px;
+    bottom: 240px;
+}
+.Y{
+    position: relative;
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    left: 1300px;
+    bottom: 265px;
+}
+.Z{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 1300px;
+    bottom: 265px;
+}
+#Proceso{
+    position: relative;
+    left: 1600px;
+    bottom: 250px;
+}
+#ArticleC{
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    height: 700px;
+}
+#ProcesoB{
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+#ProcesoC{
+    position: relative;
+    left: 400px;
+    top: 65px;
+}
+#ProcesoD{
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.ProcesoE{
+    font-size: 50px;
+}
+#ArticleD{
+    padding: 30px;
+    margin: 10px;
 }
